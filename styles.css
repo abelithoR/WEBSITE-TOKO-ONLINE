@@ -1,0 +1,76 @@
+body{
+    margin: 0px;
+}
+header{
+    display:flex;
+    top:0;
+    width: 100%;
+    background-color: black;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    color: white;
+    padding: 10px;
+}
+nav a{
+    padding: 10px 25px;
+    text-decoration: none;
+    color: white;
+}
+section.home{
+    background:url("gb1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+section.product{
+    background: url("gb2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+section.contact{
+    background-color: black;
+    height: 600px;
+}
+section.home{
+    height: 600px;
+    background:url("https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-589c-61f7-8e4b-098dd7d041dc/raw?se=2025-04-28T05%3A41%3A00Z&sp=r&sv=2024-08-04&sr=b&scid=5894d596-88d3-5354-b9e0-23b65898da88&skoid=0abefe37-d2bd-4fcb-bc88-32bccbef6f7d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-28T02%3A48%3A15Z&ske=2025-04-29T02%3A48%3A15Z&sks=b&skv=2024-08-04&sig=y9Wn2BRvHdqtufnf2v%2BO85SJbliPXOg%2Bea1IYFf813M%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 100px;
+}
+section.home div{
+    text-align: center;
+    color: white;
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+}
+section.home .welcome{
+    font-size: 30px;
+}
+section.home a{
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.about{
+    background-color: black;
+    height: 600px;
+    padding-top: 100px;
+}
+section.about div{
+    color:white;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+section.about img{
+    height: 200px;
+}
